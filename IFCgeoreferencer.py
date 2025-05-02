@@ -582,7 +582,7 @@ def relocate_ifc_model(input_file: str, output_file: str,
 
 if __name__ == "__main__":
     # Usage: python IFCgeoreferencer.py TestVilla_helsinki.ifc TestVilla_helsinki_moved_rotated.ifc --projected --easting -920163 --northing 6956137 --target-epsg 3857 --rotation 45 --elevation 3
-	parser = argparse.ArgumentParser(description="Relocate and rotate an IFC model to new geographic coordinates or projected coordinates")
+    parser = argparse.ArgumentParser(description="Relocate and rotate an IFC model to new geographic coordinates or projected coordinates")
     parser.add_argument("input_file", help="Path to the input IFC file")
     parser.add_argument("output_file", help="Path to save the relocated IFC file")
     
